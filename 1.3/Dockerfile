@@ -18,5 +18,6 @@ MAINTAINER Saulo Alves Aflitos <sauloal@gmail.com>
 RUN conda install samtools=1.3
 
 WORKDIR /data/
+USER root
 
 ENTRYPOINT ["samtools"]
