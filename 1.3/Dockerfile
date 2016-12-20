@@ -19,4 +19,4 @@ RUN conda install samtools=1.3
 
 WORKDIR /data/
 
-CMD ["samtools"]
+ENTRYPOINT ["samtools"]
